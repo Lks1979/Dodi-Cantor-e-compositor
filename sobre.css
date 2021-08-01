@@ -26,21 +26,34 @@ nav.navbar-transparente {
 .layout{
     background: url("img/muro.png") repeat;
 }
-.barra-redes{
-	background: black;
+/*Barra redes-sociais */
+.midias{
+	background-color: rgb(10, 10, 10);
+	margin-top: 0px;
 }
+.rs{
+	text-align: center;
+}
+.imgrs{
+	padding-left: 10px;
+}
+.imgrs:hover{
+	background-color: #071820;
+}
+/*Barra redes-sociais */
 .section-sobre{
-	background: url("img/bg-sobre.jpg") repeat;
+	background: url("img/bg-sobre.jpg") repeat-x;
 }
-.section-sobre2{
-	background: url("img/bg-inverso.jpg");
-}
+/*.section-sobre2{
+	background: url("img/bg-inverso.jpg") repeat-x;
+	margin-bottom: auto;
+}*/
 .section-sobre3{
-	background: url("img/bg-sobre.jpg") repeat;
+	background: url("img/bg-sobre.jpg") repeat-x;
 }
-.section-sobre4{
+/*.section-sobre4{
 	background: url("img/bg-inverso.jpg");
-}
+}*/
 .txt-sobre{
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-size: 1.4em;
